@@ -1,0 +1,142 @@
+.card-area {
+    display:flex;
+    flex-wrap:warp;
+    widows: 356;
+}
+.card {
+    width:132px;
+    min-height:90px;
+    background-color: #2D3748;
+    border: 1px solid #A0AEC0;
+    border-radius: 8px;
+    margin: 16px;
+}
+.card {
+    width: 220px;
+    min-height: 230px;
+    border: 5px solid whitesmoke;
+}
+.picture {
+    width: 1px;
+    height: 146px;
+}
+.picture {
+    width: 250px;
+
+}
+.update {
+    background-color: rgba (45,55,72,0,67);
+    color: darkblue;
+    position: absolute;
+}
+
+.company {
+    color: gray;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 4px 8px;
+}
+.info {
+    padding: 8px;
+    color: whitesmoke;
+}
+.listing {
+    display: flex;
+    justify-content:space-between;
+    align-items:baseline;
+    margin-bottom:4px;
+}
+.price {
+    font-size: 24px;
+    font-weight:bold;
+}
+.address {
+    font-weight:bold;
+    margin-bottom:4px;
+}
+.type {
+    font-size: 12px;
+}
+body{
+    background-color: darkblue;
+}
+
+
+/* Styling the list of items in the Nav Bar */
+nav ul {
+    display:flex;
+    flex-wrap:wrap;
+    margin:0;
+    padding:0;
+    z-index:10;
+}
+/* Styling the space of each item  */
+nav li {
+    display:flex;
+    margin:0;
+    list-style:none;
+    min-width:200px;
+    flex:1;
+    text-align:center;
+    background-color: darkcyan;
+    color:antiquewhite;
+    position: relative;
+}
+/* Styling the link, both unvisited and visited*/
+nav a, a:visited {
+    width:100%;
+    text-decoration:none;
+    padding: 8px 0px;
+    color:antiquewhite;
+}
+/*Hovering over a link AND the link that has class=active (the same page)*/
+nav a:hover, a.active {
+    color:green;
+    background-color:rgb(173, 230, 180);
+}
+.dropdown-content {
+    position:absolute;
+    top:37px;
+    width:100%;
+    display:none;
+    z-index:20;
+}
+nav li:hover .dropdown-content {
+    display:block;
+}
+dropdown-content a {
+    font-weight:bold;
+}
+.dropdown-content ul {
+    flex-direction:column;
+
+}
+.card {
+    width: 367px;
+    min-height: 100px;
+    border: 5px solid gray;
+}
+.picture {
+    height: 245px;
+}
+.picture {
+    width: 370px;
+
+}
+.company-name{
+    height: 50px;
+    border: 5px solid ;
+    margin-bottom: 10px;
+    background-color:darkcyan;
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Bangers",Angkor,serif;
+    border-radius: 20px;
+}
+/*fake style*/
+.fake {
+    color:white;
+}
